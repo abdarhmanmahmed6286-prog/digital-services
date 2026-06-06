@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عبد الرحمن الرميمه - منصة عرض وتسويق الخدمات الرقمية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل (Navbar) -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">عبد الرحمن الرميمه</a>
+            <ul class="nav-links">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#portfolio">معرض الأعمال</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <button class="contact-btn">اتصل الآن</button>
+            <button class="dark-mode-toggle" aria-label="تبديل الوضع الليلي/النهاري">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي (Hero Section) -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1>مرحباً بك في عالم <span class="highlight">الخدمات الرقمية الاحترافية</span></h1>
+            <p>أقدم حلولاً إبداعية ومبتكرة لتعزيز حضورك الرقمي وتحقيق أهدافك.</p>
+            <a href="#services" class="btn btn-primary">اكتشف خدماتي</a>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات (Services Section) -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>خدماتي</h2>
+            <div class="services-grid">
+                <!-- بطاقة الخدمة 1 -->
+                <div class="service-card">
+                    <i class="fas fa-cube icon"></i>
+                    <h3>التصميم ثلاثي الأبعاد</h3>
+                    <p>تصميم نماذج ثلاثية الأبعاد واقعية وجذابة لمشاريعك.</p>
+                </div>
+                <!-- بطاقة الخدمة 2 -->
+                <div class="service-card">
+                    <i class="fas fa-language icon"></i>
+                    <h3>الترجمة الاحترافية</h3>
+                    <p>ترجمة دقيقة ومعتمدة لمختلف اللغات والمجالات.</p>
+                </div>
+                <!-- بطاقة الخدمة 3 -->
+                <div class="service-card">
+                    <i class="fas fa-pen-nib icon"></i>
+                    <h3>كتابة المحتوى</h3>
+                    <p>محتوى إبداعي وجذاب يلبي احتياجات جمهورك المستهدف.</p>
+                </div>
+                <!-- بطاقة الخدمة 4 -->
+                <div class="service-card">
+                    <i class="fas fa-headset icon"></i>
+                    <h3>الدعم التقني</h3>
+                    <p>حلول دعم تقني سريعة وفعالة لمشاكلك التقنية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم معرض الأعمال (Portfolio/Gallery) -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>معرض أعمالي</h2>
+            <div class="portfolio-grid">
+                <!-- عنصر معرض الأعمال 1 -->
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/FF5733/FFFFFF?text=مشروع+1" alt="مشروع 1">
+                    <div class="overlay">
+                        <h3>تصميم شعار شركة</h3>
+                        <p>تصميم شعار احترافي لشركة ناشئة.</p>
+                    </div>
+                </div>
+                <!-- عنصر معرض الأعمال 2 -->
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/33FF57/FFFFFF?text=مشروع+2" alt="مشروع 2">
+                    <div class="overlay">
+                        <h3>تطوير موقع إلكتروني</h3>
+                        <p>موقع ويب متكامل لشركة خدمات.</p>
+                    </div>
+                </div>
+                <!-- عنصر معرض الأعمال 3 -->
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/3357FF/FFFFFF?text=مشروع+3" alt="مشروع 3">
+                    <div class="overlay">
+                        <h3>حملة تسويقية رقمية</h3>
+                        <p>إدارة حملة تسويقية ناجحة عبر الإنترنت.</p>
+                    </div>
+                </div>
+                <!-- عنصر معرض الأعمال 4 -->
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/FF33FF/FFFFFF?text=مشروع+4" alt="مشروع 4">
+                    <div class="overlay">
+                        <h3>تصميم واجهة مستخدم</h3>
+                        <p>تصميم واجهة مستخدم لتطبيق جوال.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا (Contact Form) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>تواصل معي</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">نوع الخدمة المطلوبة:</label>
+                    <select id="service" name="service">
+                        <option value="">اختر خدمة</option>
+                        <option value="3d-design">التصميم ثلاثي الأبعاد</option>
+                        <option value="translation">الترجمة الاحترافية</option>
+                        <option value="content-writing">كتابة المحتوى</option>
+                        <option value="tech-support">الدعم التقني</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">رسالتك:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                <div id="form-message" class="form-message"></div>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+967773215845">+967 773215845</a></p>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/967773215845" target="_blank">واتساب</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة (Footer) -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 عبد الرحمن الرميمه. جميع الحقوق محفوظة.</p>
+            <div class="footer-contact">
+                <a href="tel:+967773215845"><i class="fas fa-phone-alt"></i></a>
+                <a href="https://wa.me/967773215845" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
